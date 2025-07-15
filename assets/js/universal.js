@@ -74,7 +74,7 @@
     (a.o = function (e, r) {
       return Object.prototype.hasOwnProperty.call(e, r);
     }),
-    (a.p = "index.html");
+    (a.p = "../../index.html");
   var i = (this.webpackJsonpbizkar = this.webpackJsonpbizkar || []),
     l = i.push.bind(i);
   (i.push = r), (i = i.slice());
