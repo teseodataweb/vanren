@@ -44,7 +44,23 @@
                             u.b,
                             { to: "/" },
                             i.a.createElement("img", {
-                              src: "/demo/react/bizkar/assets/images/logo-full-light.png",
+                              src: "./assets/images/logo/banderas/mex.webp",
+                              alt: "logo",
+                            })
+                          ),
+                          i.a.createElement(
+                            u.b,
+                            { to: "/" },
+                            i.a.createElement("img", {
+                              src: "./assets/images/logo/banderas/usa.webp",
+                              alt: "logo",
+                            })
+                          ),
+                          i.a.createElement(
+                            u.b,
+                            { to: "/" },
+                            i.a.createElement("img", {
+                              src: "./assets/images/logo/logo_1248_322.webp",
                               alt: "logo",
                             })
                           ),
@@ -315,11 +331,11 @@
                         className: "banner-one go-top",
                         style: {
                           backgroundImage:
-                            "url(/demo/react/bizkar/assets/images/backgrounds/banner-bg-1-1.png)",
+                            "url(./assets/images/pages/index/hero/banner-bg-1-1.webp)",
                         },
                       },
                       i.a.createElement("img", {
-                        src: "/demo/react/bizkar/assets/images/resources/banner-1-1.png",
+                        src: "./assets/images/pages/index/hero/p1.webp",
                         alt: "image",
                         className: "banner-one__moc",
                       }),
@@ -411,7 +427,7 @@
               {
                 key: "render",
                 value: function () {
-                  var e = "/demo/react/bizkar/";
+                  var e = "./";
                   return i.a.createElement(
                     "section",
                     { className: "brand-one" },
@@ -543,7 +559,7 @@
               {
                 key: "render",
                 value: function () {
-                  var e = "/demo/react/bizkar/";
+                  var e = "./";
                   return i.a.createElement(
                     "section",
                     { className: "service-one go-top" },
@@ -720,7 +736,7 @@
                       "div",
                       { className: "container" },
                       i.a.createElement("img", {
-                        src: "/demo/react/bizkar/assets/images/resources/cta-1-1.png",
+                        src: "/assets/images/resources/cta-1-1.png",
                         alt: "image",
                         className: "about-one__moc",
                       }),
@@ -805,7 +821,7 @@
                     "section",
                     { className: "about-two  go-top" },
                     i.a.createElement("img", {
-                      src: "/demo/react/bizkar/assets/images/shapes/about-two-bg.png",
+                      src: "/assets/images/shapes/about-two-bg.png",
                       alt: "image",
                       className: "about-two__bg",
                     }),
@@ -813,7 +829,7 @@
                       "div",
                       { className: "container" },
                       i.a.createElement("img", {
-                        src: "/demo/react/bizkar/assets/images/resources/cta-2-1.png",
+                        src: "assets/images/resources/cta-2-1.png",
                         alt: "image",
                         className: "about-two__moc",
                       }),
@@ -1197,7 +1213,7 @@
                     "section",
                     { className: "progress-one" },
                     i.a.createElement("img", {
-                      src: "/demo/react/bizkar/assets/images/shapes/progress-bg-1.png",
+                      src: "/assets/images/shapes/progress-bg-1.png",
                       alt: "image",
                       className: "progress-one__bg",
                     }),
@@ -1205,7 +1221,7 @@
                       "div",
                       { className: "container" },
                       i.a.createElement("img", {
-                        src: "/demo/react/bizkar/assets/images/resources/progress-1-1.png",
+                        src: "/assets/images/resources/progress-1-1.png",
                         alt: "image",
                         className: "progress-one__moc",
                       }),
@@ -1409,7 +1425,7 @@
               {
                 key: "render",
                 value: function () {
-                  var e = "/demo/react/bizkar/";
+                  var e = "./";
                   return i.a.createElement(
                     "section",
                     { className: "portfolio-one go-top" },
@@ -1446,7 +1462,8 @@
                             { className: "portfolio-one__single" },
                             i.a.createElement("img", {
                               src:
-                                e + "assets/images/portfolio/portfolio-1-1.jpg",
+                                e +
+                                "/assets/images/portfolio/portfolio-1-1.jpg",
                               alt: "image",
                             }),
                             i.a.createElement(
@@ -1477,7 +1494,8 @@
                             { className: "portfolio-one__single" },
                             i.a.createElement("img", {
                               src:
-                                e + "assets/images/portfolio/portfolio-1-2.jpg",
+                                e +
+                                "/assets/images/portfolio/portfolio-1-2.jpg",
                               alt: "image",
                             }),
                             i.a.createElement(
@@ -2839,16 +2857,13 @@
                 value: function () {
                   return i.a.createElement(
                     "header",
-                    {
-                      className:
-                        "site-header-two site-header-two__ go-top  go-top",
-                    },
+                    { className: "site-header-one go-top" },
                     i.a.createElement(
                       "nav",
-                      { className: "main-nav__two stricky" },
+                      { className: "main-nav__one stricky" },
                       i.a.createElement(
                         "div",
-                        { className: "container" },
+                        { className: "container-fluid" },
                         i.a.createElement(
                           "div",
                           { className: "main-nav__logo-box" },
@@ -2856,9 +2871,30 @@
                             u.b,
                             { to: "/" },
                             i.a.createElement("img", {
-                              src: "/demo/react/bizkar/assets/images/logo-2-1.png",
+                              src: "./assets/images/logo/banderas/mex.webp",
                               alt: "logo",
                             })
+                          ),
+                          i.a.createElement(
+                            u.b,
+                            { to: "/" },
+                            i.a.createElement("img", {
+                              src: "./assets/images/logo/banderas/usa.webp",
+                              alt: "logo",
+                            })
+                          ),
+                          i.a.createElement(
+                            u.b,
+                            { to: "/" },
+                            i.a.createElement("img", {
+                              src: "./assets/images/logo/logo_1248_322.webp",
+                              alt: "logo",
+                            })
+                          ),
+                          i.a.createElement(
+                            "a",
+                            { href: "#", className: "side-menu__toggler" },
+                            i.a.createElement("i", { className: "fa fa-bars" })
                           )
                         ),
                         i.a.createElement(
@@ -3085,9 +3121,12 @@
                           "div",
                           { className: "main-nav__right" },
                           i.a.createElement(
-                            "a",
-                            { href: "#", className: "side-menu__toggler" },
-                            i.a.createElement("span", null)
+                            u.b,
+                            { to: "/contact", className: "thm-btn" },
+                            "Free Trial ",
+                            i.a.createElement("i", {
+                              className: "fa fa-angle-right",
+                            })
                           )
                         )
                       )
@@ -6533,272 +6572,277 @@
                 key: "render",
                 value: function () {
                   return i.a.createElement(
-                    "div",
-                    null,
+                    "header",
+                    { className: "site-header-one go-top" },
                     i.a.createElement(
-                      "header",
-                      {
-                        className:
-                          "site-header-two site-header-two__home-three go-top",
-                      },
+                      "nav",
+                      { className: "main-nav__one stricky" },
                       i.a.createElement(
-                        "nav",
-                        { className: "main-nav__two stricky" },
+                        "div",
+                        { className: "container-fluid" },
                         i.a.createElement(
                           "div",
-                          { className: "container" },
+                          { className: "main-nav__logo-box" },
                           i.a.createElement(
-                            "div",
-                            { className: "main-nav__logo-box" },
-                            i.a.createElement(
-                              u.b,
-                              { to: "/" },
-                              i.a.createElement("img", {
-                                src: "/demo/react/bizkar/assets/images/logo-full-light.png",
-                                alt: "logo",
-                              })
-                            )
+                            u.b,
+                            { to: "/" },
+                            i.a.createElement("img", {
+                              src: "./assets/images/logo/banderas/mex.webp",
+                              alt: "logo",
+                            })
                           ),
                           i.a.createElement(
-                            "div",
-                            { className: "main-nav__main-navigation" },
+                            u.b,
+                            { to: "/" },
+                            i.a.createElement("img", {
+                              src: "./assets/images/logo/banderas/usa.webp",
+                              alt: "logo",
+                            })
+                          ),
+                          i.a.createElement(
+                            u.b,
+                            { to: "/" },
+                            i.a.createElement("img", {
+                              src: "./assets/images/logo/logo_1248_322.webp",
+                              alt: "logo",
+                            })
+                          ),
+                          i.a.createElement(
+                            "a",
+                            { href: "#", className: "side-menu__toggler" },
+                            i.a.createElement("i", { className: "fa fa-bars" })
+                          )
+                        ),
+                        i.a.createElement(
+                          "div",
+                          { className: "main-nav__main-navigation" },
+                          i.a.createElement(
+                            "ul",
+                            { className: " main-nav__navigation-box" },
                             i.a.createElement(
-                              "ul",
-                              { className: " main-nav__navigation-box" },
+                              "li",
+                              { className: "dropdown" },
+                              i.a.createElement(u.b, { to: "/" }, "Home"),
                               i.a.createElement(
-                                "li",
-                                { className: "dropdown" },
-                                i.a.createElement(u.b, { to: "/" }, "Home"),
-                                i.a.createElement(
-                                  "ul",
-                                  null,
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/home-v2" },
-                                      "Home 02"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/home-v3" },
-                                      "Home 03"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/home-v4" },
-                                      "Home 04"
-                                    )
-                                  )
-                                )
-                              ),
-                              i.a.createElement(
-                                "li",
+                                "ul",
                                 null,
                                 i.a.createElement(
-                                  u.b,
-                                  { to: "/about" },
-                                  "About"
-                                )
-                              ),
-                              i.a.createElement(
-                                "li",
-                                { className: "dropdown" },
-                                i.a.createElement(
-                                  "a",
-                                  { href: "#" },
-                                  "Services"
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/home-v2" },
+                                    "Home 02"
+                                  )
                                 ),
                                 i.a.createElement(
-                                  "ul",
+                                  "li",
                                   null,
                                   i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/service" },
-                                      "Services 01"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/service-v2" },
-                                      "Services 02"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/service-details" },
-                                      "Services Details"
-                                    )
+                                    u.b,
+                                    { to: "/home-v3" },
+                                    "Home 03"
                                   )
-                                )
-                              ),
-                              i.a.createElement(
-                                "li",
-                                { className: "dropdown" },
-                                i.a.createElement("a", { href: "#" }, "Work"),
-                                i.a.createElement(
-                                  "ul",
-                                  null,
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/portfolio-standard" },
-                                      "Portfolio Standard"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/portfolio-full" },
-                                      "Portfolio Full"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/portfolio-masonary" },
-                                      "Portfolio Masonary"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/portfolio-details" },
-                                      "Portfolio Details"
-                                    )
-                                  )
-                                )
-                              ),
-                              i.a.createElement(
-                                "li",
-                                { className: "dropdown" },
-                                i.a.createElement("a", { href: "#" }, "Pages"),
-                                i.a.createElement(
-                                  "ul",
-                                  null,
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/pricing" },
-                                      "Pricing"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/faq" },
-                                      "FAQ"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/testimonial" },
-                                      "Testimonials"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/team" },
-                                      "Team"
-                                    )
-                                  )
-                                )
-                              ),
-                              i.a.createElement(
-                                "li",
-                                { className: "dropdown" },
-                                i.a.createElement(
-                                  u.b,
-                                  { to: "/blog-standard" },
-                                  "News"
                                 ),
                                 i.a.createElement(
-                                  "ul",
+                                  "li",
                                   null,
                                   i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/blog-grid" },
-                                      "News Page"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/blog-list" },
-                                      "News List"
-                                    )
-                                  ),
-                                  i.a.createElement(
-                                    "li",
-                                    null,
-                                    i.a.createElement(
-                                      u.b,
-                                      { to: "/blog-details" },
-                                      "News Details"
-                                    )
+                                    u.b,
+                                    { to: "/home-v4" },
+                                    "Home 04"
                                   )
-                                )
-                              ),
-                              i.a.createElement(
-                                "li",
-                                null,
-                                i.a.createElement(
-                                  u.b,
-                                  { to: "/contact" },
-                                  "Contact"
                                 )
                               )
-                            )
-                          ),
-                          i.a.createElement(
-                            "div",
-                            { className: "main-nav__right" },
+                            ),
                             i.a.createElement(
-                              "a",
-                              { href: "#", className: "side-menu__toggler" },
-                              i.a.createElement("span", null)
+                              "li",
+                              null,
+                              i.a.createElement(u.b, { to: "/about" }, "About")
+                            ),
+                            i.a.createElement(
+                              "li",
+                              { className: "dropdown" },
+                              i.a.createElement("a", { href: "#" }, "Services"),
+                              i.a.createElement(
+                                "ul",
+                                null,
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/service" },
+                                    "Services 01"
+                                  )
+                                ),
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/service-v2" },
+                                    "Services 02"
+                                  )
+                                ),
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/service-details" },
+                                    "Services Details"
+                                  )
+                                )
+                              )
+                            ),
+                            i.a.createElement(
+                              "li",
+                              { className: "dropdown" },
+                              i.a.createElement("a", { href: "#" }, "Work"),
+                              i.a.createElement(
+                                "ul",
+                                null,
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/portfolio-standard" },
+                                    "Portfolio Standard"
+                                  )
+                                ),
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/portfolio-full" },
+                                    "Portfolio Full"
+                                  )
+                                ),
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/portfolio-masonary" },
+                                    "Portfolio Masonary"
+                                  )
+                                ),
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/portfolio-details" },
+                                    "Portfolio Details"
+                                  )
+                                )
+                              )
+                            ),
+                            i.a.createElement(
+                              "li",
+                              { className: "dropdown" },
+                              i.a.createElement("a", { href: "#" }, "Pages"),
+                              i.a.createElement(
+                                "ul",
+                                null,
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/pricing" },
+                                    "Pricing"
+                                  )
+                                ),
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(u.b, { to: "/faq" }, "FAQ")
+                                ),
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/testimonial" },
+                                    "Testimonials"
+                                  )
+                                ),
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/team" },
+                                    "Team"
+                                  )
+                                )
+                              )
+                            ),
+                            i.a.createElement(
+                              "li",
+                              { className: "dropdown" },
+                              i.a.createElement(
+                                u.b,
+                                { to: "/blog-standard" },
+                                "News"
+                              ),
+                              i.a.createElement(
+                                "ul",
+                                null,
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/blog-grid" },
+                                    "News Page"
+                                  )
+                                ),
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/blog-list" },
+                                    "News List"
+                                  )
+                                ),
+                                i.a.createElement(
+                                  "li",
+                                  null,
+                                  i.a.createElement(
+                                    u.b,
+                                    { to: "/blog-details" },
+                                    "News Details"
+                                  )
+                                )
+                              )
+                            ),
+                            i.a.createElement(
+                              "li",
+                              null,
+                              i.a.createElement(
+                                u.b,
+                                { to: "/contact" },
+                                "Contact"
+                              )
                             )
+                          )
+                        ),
+                        i.a.createElement(
+                          "div",
+                          { className: "main-nav__right" },
+                          i.a.createElement(
+                            u.b,
+                            { to: "/contact", className: "thm-btn" },
+                            "Free Trial ",
+                            i.a.createElement("i", {
+                              className: "fa fa-angle-right",
+                            })
                           )
                         )
                       )
@@ -8963,13 +9007,10 @@
                 value: function () {
                   return i.a.createElement(
                     "header",
-                    {
-                      className:
-                        "site-header-two site-header-two__home-four go-top",
-                    },
+                    { className: "site-header-one go-top" },
                     i.a.createElement(
                       "nav",
-                      { className: "main-nav__two stricky" },
+                      { className: "main-nav__one stricky" },
                       i.a.createElement(
                         "div",
                         { className: "container-fluid" },
@@ -8980,9 +9021,30 @@
                             u.b,
                             { to: "/" },
                             i.a.createElement("img", {
-                              src: "/demo/react/bizkar/assets/images/logo-full-light.png",
+                              src: "./assets/images/logo/banderas/mex.webp",
                               alt: "logo",
                             })
+                          ),
+                          i.a.createElement(
+                            u.b,
+                            { to: "/" },
+                            i.a.createElement("img", {
+                              src: "./assets/images/logo/banderas/usa.webp",
+                              alt: "logo",
+                            })
+                          ),
+                          i.a.createElement(
+                            u.b,
+                            { to: "/" },
+                            i.a.createElement("img", {
+                              src: "./assets/images/logo/logo_1248_322.webp",
+                              alt: "logo",
+                            })
+                          ),
+                          i.a.createElement(
+                            "a",
+                            { href: "#", className: "side-menu__toggler" },
+                            i.a.createElement("i", { className: "fa fa-bars" })
                           )
                         ),
                         i.a.createElement(
@@ -9209,16 +9271,13 @@
                           "div",
                           { className: "main-nav__right" },
                           i.a.createElement(
-                            "a",
-                            { href: "#", className: "side-menu__toggler" },
-                            i.a.createElement("span", null)
-                          ),
-                          i.a.createElement(
                             u.b,
-                            { to: "/contact" },
-                            "Need Help?"
-                          ),
-                          i.a.createElement(u.b, { to: "/contact" }, "Carrier")
+                            { to: "/contact", className: "thm-btn" },
+                            "Free Trial ",
+                            i.a.createElement("i", {
+                              className: "fa fa-angle-right",
+                            })
+                          )
                         )
                       )
                     )
